@@ -1,5 +1,8 @@
 # Luke's dmenu
 
+
+**FORKED FROM [LukeSmith's Build of dmenu](https://github.com/lukesmithxyz/dmenu)**
+
 Extra stuff added to vanilla dmenu:
 
 - reads Xresources (ergo pywal compatible)
