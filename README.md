@@ -1,19 +1,10 @@
-# Luke's dmenu
+# Dante's build of dmenu
 
+- Forked from the [Official suckless dmenu repo](https://tools.suckless.org/dmenu/)
 
-**FORKED FROM [LukeSmith's Build of dmenu](https://github.com/lukesmithxyz/dmenu)**
-
-Extra stuff added to vanilla dmenu:
-
-- reads Xresources (ergo pywal compatible)
-- alpha patch, which importantly allows this build to be embedded in transparent st
-- can view color characters like emoji (libxft-bgra is required for this reason)
-- `-P` for password mode: hide user input
-- `-r` to reject non-matching input
-- dmenu options are mouse clickable
 
 ## Installation
 
-You must have `libxft-bgra` installed until the libxft upstream is fixed.
+You must have `libxft-bgra` installed for emoji support otherwise emojis won't work and your dmenu might crash.
 
-After making any config changes that you want, but `make`, `sudo make install` it.
+After making any config changes that you want, but `make`, `sudo make clean install` it.
